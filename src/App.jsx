@@ -18,6 +18,7 @@ import {
 } from "lucide-react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
+import "./index.css";
 
 // Configura axios
 const api = axios.create({
